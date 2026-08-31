@@ -1,0 +1,18 @@
+//
+//  Release.xcconfig
+//  Sandbox
+//
+
+#include? "../../Pods/Target Support Files/Pods-Sandbox/Pods-Sandbox.release.xcconfig"
+
+PARTNER = Sandbox
+APP_NAME = IV Sandbox
+PRODUCT_BUNDLE_IDENTIFIER = ai.instaview.guardian.sandbox
+APP_ENVIRONMENT = Prod
+APP_VERSION = 1.0.0
+
+// Push. The App ID must have the Push Notifications capability enabled or
+// signing will fail with a missing-entitlement error.
+CODE_SIGN_ENTITLEMENTS = Sandbox/SandboxRelease.entitlements
+
+REVERSED_CLIENT_ID = com.googleusercontent.apps.2606432480-k799dthuo4qubqs8b7b73sun610n1esu

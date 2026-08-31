@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<!-- Standard bundle keys. This target sets GENERATE_INFOPLIST_FILE = NO,
+	     so nothing fills these in automatically — without CFBundleExecutable
+	     the device refuses to install the app. -->
+	<key>CFBundleDevelopmentRegion</key>
+	<string>$(DEVELOPMENT_LANGUAGE)</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>CFBundlePackageType</key>
+	<string>$(PRODUCT_BUNDLE_PACKAGE_TYPE)</string>
+	<key>CFBundleDisplayName</key>
+	<string>$(APP_NAME)</string>
+	<key>CFBundleShortVersionString</key>
+	<string>$(APP_VERSION)</string>
+	<key>CFBundleVersion</key>
+	<string>$(CURRENT_PROJECT_VERSION)</string>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+
+	<!-- Read by AppEnvironment; stamped in from the active .xcconfig. -->
+	<key>AppEnvironment</key>
+	<string>$(APP_ENVIRONMENT)</string>
+	<key>Partner</key>
+	<string>$(PARTNER)</string>
+
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>$(REVERSED_CLIENT_ID)</string>
+			</array>
+		</dict>
+	</array>
+	<key>FirebaseAppDelegateProxyEnabled</key>
+	<false/>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>googlegmail</string>
+	</array>
+
+	<key>NSBluetoothAlwaysUsageDescription</key>
+	<string>Sandbox uses Bluetooth to find and set up nearby cameras.</string>
+	<key>NSCameraUsageDescription</key>
+	<string>Sandbox uses the camera to scan pairing and SIM QR codes.</string>
+	<key>NSLocalNetworkUsageDescription</key>
+	<string>Sandbox uses the local network to reach cameras during setup.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Sandbox reads the current Wi-Fi name so you do not have to type it during camera setup.</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Sandbox uses the microphone for two-way talk.</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>Sandbox saves event snapshots and clips to your photo library.</string>
+
+	<key>UIApplicationSceneManifest</key>
+	<dict>
+		<key>UIApplicationSupportsMultipleScenes</key>
+		<false/>
+	</dict>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>remote-notification</string>
+	</array>
+	<key>UILaunchScreen</key>
+	<dict>
+		<key>UIColorName</key>
+		<string>LaunchBackground</string>
+	</dict>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>arm64</string>
+	</array>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,7 @@
+.DS_Store
+build/
+DerivedData/
+Pods/
+*.xcworkspace
+xcuserdata/
+**/GoogleService-Info.plist

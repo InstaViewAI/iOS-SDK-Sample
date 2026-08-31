@@ -1,0 +1,816 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		021C6F72F558AD18F9E4EA90 /* ScanCameraCodeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E27D59FBB8A3E9A4715EB8 /* ScanCameraCodeScreen.swift */; };
+		02FDACCA791907AC6082E909 /* CameraSubSettingsScreens.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EDD08DA31A11ACAEFE6DF9A /* CameraSubSettingsScreens.swift */; };
+		05DE6EE3752042B25539F886 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5049881878E69404BCA2CFA /* LoginViewModel.swift */; };
+		065ECCFDBB0CACA520040F3B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F9006F7F0CD609E81F6631 /* AppDelegate.swift */; };
+		08E4CE977DB3C4D62F166A15 /* ProSecurityCameraScreens.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70034233E02478331AE08563 /* ProSecurityCameraScreens.swift */; };
+		09FE6CCC0A986C1AFA7B5F95 /* AppTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2E666C56381DF8A1D36E36 /* AppTabBarView.swift */; };
+		0B79F4C2076F22DA0F6EA903 /* LiveViewScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96CECA9A4C4C2898242D846 /* LiveViewScreen.swift */; };
+		116B87219B97B4C95D611219 /* Destination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A947C3C4A3F968CB3A1782 /* Destination.swift */; };
+		1276CF29681D93311CAEBD83 /* AppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB439255A8F8D7D2720E825 /* AppConfig.swift */; };
+		129B041567BA33B47946C219 /* AppWindowManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60877AA2248DC59F51EC085A /* AppWindowManager.swift */; };
+		132B24B7BDD8960A3F839A31 /* AppEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255555B56B68B407D6C33FDA /* AppEnvironment.swift */; };
+		1B3607888590BF53B71CCEFA /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2AED96B1537EBAA5FC88D3 /* HomeViewModel.swift */; };
+		1EBF6995DA70545D703EE536 /* SpaceScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D78B86F590B612EB90E0D4B /* SpaceScreen.swift */; };
+		23969582AF780F286CECE5CD /* CameraLiveViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE33009B555097AFBAA5F6F0 /* CameraLiveViewModel.swift */; };
+		2573DD1089C4B858EAD492C2 /* ChangePasswordScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82CF5F5230734E78CD650463 /* ChangePasswordScreen.swift */; };
+		26AB67869F873919F53517BE /* AppFonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1CBD18F8DDE2248423B7F15 /* AppFonts.swift */; };
+		275928F2E62B4EEF6463E325 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1813C63B0779664A88273AD9 /* BaseView.swift */; };
+		2B3622108BE8039655A37DC6 /* ResultWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C70BCDCC7556D0D2D775899 /* ResultWrapper.swift */; };
+		2BD8E62D602A5D4B4D8DF86F /* EventsDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319D500FC08F8572D4A2BB5E /* EventsDataStore.swift */; };
+		2C7560DA20CB7600D654420F /* TimezonePickerSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA39D869515B8D8494C2913 /* TimezonePickerSheet.swift */; };
+		2F8DFB32E0C2259B83942C6C /* ProSecurityScheduleScreens.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2FEE8945CB0502B4AC9847C /* ProSecurityScheduleScreens.swift */; };
+		3213222CC32BE3EAE0536A78 /* ProSecurityScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7161BABF4FF16957A5DBE223 /* ProSecurityScreen.swift */; };
+		3BCDA907049B38CD89A27A73 /* EventsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E847C67D693FCD26755AB70F /* EventsViewModel.swift */; };
+		3CF131609AA9B933BC2A49B4 /* FourGScreens.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5DF4AC1688BC4F6C360CE32 /* FourGScreens.swift */; };
+		41AF5EBF377C1F65E11C9BBC /* ScanWiFiQRCodeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D59B4E49D08D8D599267ED /* ScanWiFiQRCodeScreen.swift */; };
+		42BD8C687BDE40BB278C1E05 /* Atoms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46BDF971E18151BD595B0A5A /* Atoms.swift */; };
+		474897237F6319058502DAD2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 24A9D4DB4A46F25EC56CD3A4 /* GoogleService-Info.plist */; };
+		47E9ED9CFA107CF1838224BB /* AppStorageKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F5AD60FBD8F551F6D333130 /* AppStorageKey.swift */; };
+		4975B4EED73E172F02DA52B6 /* SpaceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8311CE2DBA910E6CBC250CC4 /* SpaceViewModel.swift */; };
+		49B2BE9EF80B7B9C3F5415AB /* ProSecurityArmDisarmScreens.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B0CD54125E60F0A2C579F80 /* ProSecurityArmDisarmScreens.swift */; };
+		4CC51B53B2A10A065A373E6D /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E049D2AF7B9CF12BAF22DA9 /* HomeScreen.swift */; };
+		4D66995DC6344F8606BCB3D6 /* ProSecurityModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA3BC884AAF9200D63E04F6 /* ProSecurityModels.swift */; };
+		548073C1C26FCBC06B495917 /* VMSScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78FAA608EDF77E61DDDA8A29 /* VMSScreen.swift */; };
+		54E1ACBCD43FB73DD3C78A0D /* EventsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4278BE0A928AD4599DB75F7D /* EventsScreen.swift */; };
+		5536EF091296B11BFEF80978 /* CameraSettingsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CC7945F8609C86E0A7D5CCE /* CameraSettingsScreen.swift */; };
+		5E03CD4D0DECF52B4886505F /* CameraWiFiListScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B86837A849CC72E82142476 /* CameraWiFiListScreen.swift */; };
+		611A2B9B0C8F9F982ACA1EBC /* ProSecuritySetupScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FDD9A7C7944326B431B5F8 /* ProSecuritySetupScreen.swift */; };
+		67144917F9FFE0949146B7B5 /* SelectWiFiScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A40947F922B39ACC24C3073 /* SelectWiFiScreen.swift */; };
+		68DD292D60731709540DCAA6 /* DeviceSettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D61CC352EC7F4B979896DA4 /* DeviceSettingsViewModel.swift */; };
+		69BC9392D4F0763993CE1A0B /* CameraSearchFailScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185CE0DE9426E819A6D3A168 /* CameraSearchFailScreen.swift */; };
+		70EDE10E9A5894C523B47D3B /* EmailVerifyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69439B877C4E812500481D1C /* EmailVerifyViewModel.swift */; };
+		71C0F4E8C7A2701F22C2F426 /* PairingScaffold.swift in Sources */ = {isa = PBXBuildFile; fileRef = F234BCE036BF1540581E00C3 /* PairingScaffold.swift */; };
+		71FDED93CC03C49AE197AE40 /* TurnOnCameraScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CFAF80E3E0A700E23333984 /* TurnOnCameraScreen.swift */; };
+		73E2C6C7418E893314408FB0 /* Pilot.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8EF030A6DF07922F60D73A5 /* Pilot.swift */; };
+		7460B2E9F0BC5C31FB057C4D /* SharedDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A819B1AC4B2AD9F341484AC /* SharedDataStore.swift */; };
+		7DB0DAEB852A48C51CD3DAB9 /* BleWiFiScanFailScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23BD4816C5B434AB9A849A6C /* BleWiFiScanFailScreen.swift */; };
+		7EF34A3EE5D3837762FE8C75 /* TroubleshootCameraScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D645F721D35A1EC1B2E99DF8 /* TroubleshootCameraScreen.swift */; };
+		895D7E8940E0B320942FD861 /* CameraResetScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5DB309C10FE7F137C04A9C /* CameraResetScreen.swift */; };
+		8A9B3945BBEF220CDC9874F4 /* ProSecurityAlarmScreens.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FDEA37592EA0286EFC61126 /* ProSecurityAlarmScreens.swift */; };
+		8E1A0DAD4277654D36E667EB /* QRCodeScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A6C51D17E959309EDB3A1A /* QRCodeScannerView.swift */; };
+		908BDCC3056230F49E590ED2 /* BLECameraListScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC39DFBFC569E1C61579AABC /* BLECameraListScreen.swift */; };
+		93FFA5CD356C657F716F1244 /* ForgotPasswordScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA4C82517FA7EEB74C6B8A3 /* ForgotPasswordScreen.swift */; };
+		94D3B1D1BCB799F3E940DC80 /* B2TokenStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3EA0BF3167A2D96105107FB /* B2TokenStore.swift */; };
+		97292B92D284EFD47027905C /* CodableStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DD66C3DEE57239F252C3E2 /* CodableStorage.swift */; };
+		9990D86F236EF14270ADADF1 /* EventPlayerScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC43503D2644555FC202BA2 /* EventPlayerScreen.swift */; };
+		99C9CA0DA58F1FB55D10680B /* Pods_Sandbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 201957E4139206DDC0FD8D63 /* Pods_Sandbox.framework */; };
+		A0839E32D60DD96D1E135256 /* EventPlayerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07CF823157A4AAA63CD1B880 /* EventPlayerViewModel.swift */; };
+		A1599BAA8D0A477D0B082A75 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FAEC6A17A4273372684DAB /* Logger.swift */; };
+		A2219DF64C357DCB97C0E975 /* SpaceDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3058ED9EDB8E7F969F6FE211 /* SpaceDataStore.swift */; };
+		A650BF6307D3467CB6D68E09 /* SignupViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86842BE59B59D40ECD44A78C /* SignupViewModel.swift */; };
+		A839D94F600365756C2211AB /* OnboardingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6918A1B36ED5E4F34D2C803 /* OnboardingScreen.swift */; };
+		A84993E96DC45CD41EF61A84 /* CameraPermissionScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97843750DBEB19B5D807E32D /* CameraPermissionScreen.swift */; };
+		B097B599E592553332392578 /* CameraSearchScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156FC47F17A4C9B93153F173 /* CameraSearchScreen.swift */; };
+		B37B2698A2B417D02958E469 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF7BEA2BAE1C7B646239B58 /* ContentView.swift */; };
+		BCC0643B10BC9FB83B0682C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84AED5B601FF22AA814CD0A5 /* Assets.xcassets */; };
+		BDDC3938BD0ED441748C2A35 /* EmailVerifyScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661337E29FD0A94237ABF918 /* EmailVerifyScreen.swift */; };
+		BE41A4D9FAF7F006374380BA /* AppColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = C862B8DA2C3C6EC4CB7AF773 /* AppColors.swift */; };
+		C0B23D99D562100E8D3A3F24 /* MyAccountScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988A6970CE5D758ECD4A31AE /* MyAccountScreen.swift */; };
+		C90DE112C92562553C960731 /* PairCameraErrorScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498DE797AE4141E0B02E05B4 /* PairCameraErrorScreen.swift */; };
+		CE08CE0051E9F293B6423966 /* Models+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48599A3017103B85B1AC3D6D /* Models+Ext.swift */; };
+		D0BCA2A319C4FF336604B8E0 /* ProSecuritySettingsScreens.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29BD2FDBE46996D82E4791AB /* ProSecuritySettingsScreens.swift */; };
+		D187102FA4EC27EC6029FF10 /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83EB19462BEE131A1E959CCF /* Validation.swift */; };
+		DC0346B2CBEBFCB2683A3BFB /* BleCameraWiFiSearchingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2E61CF2667122A40E60E15 /* BleCameraWiFiSearchingScreen.swift */; };
+		E2BE7D37F3720D17681BCDAA /* ProSecurityContactScreens.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A7DCCB96E1E67A6830EA83 /* ProSecurityContactScreens.swift */; };
+		E3E4C66C50A7F93369B20485 /* PairingSessionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49594E373A3EAB3FADFFD3B /* PairingSessionViewModel.swift */; };
+		E631D75C12360D65E0896480 /* CameraAuthEmailScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCCD567AD83A330266D39C13 /* CameraAuthEmailScreen.swift */; };
+		E7513FC36A0E04E2E4267E32 /* SandboxApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66840B4D55E80C27917E883E /* SandboxApp.swift */; };
+		E819C6DCF04BC31ACC0B5276 /* SettingsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 913B8E36408AEADE26669858 /* SettingsScreen.swift */; };
+		E93A88E5A85086A705F5BF0A /* ProSecurityTestScreens.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE1718B791D29736ACA318D /* ProSecurityTestScreens.swift */; };
+		EFE4A1ACD867F853164EE209 /* SignUpScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB28C260D59BAB962BF2B45F /* SignUpScreen.swift */; };
+		F4F0E8B1A4C68424DACEBA6E /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0934C2F9A65EC7AD10999A09 /* LoginScreen.swift */; };
+		FEB608AFFA875FB3F8A0DA15 /* RetrievePairingStatusScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB27709C19A866711FE1BFE6 /* RetrievePairingStatusScreen.swift */; };
+		FF08349E2D57A3BD7B0F18FC /* ProSecurityStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF046A0C60D394F08012D64 /* ProSecurityStore.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		03A8ADE6680CD823852147B8 /* Sandbox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sandbox.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		05A947C3C4A3F968CB3A1782 /* Destination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Destination.swift; sourceTree = "<group>"; };
+		07CF823157A4AAA63CD1B880 /* EventPlayerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventPlayerViewModel.swift; sourceTree = "<group>"; };
+		0934C2F9A65EC7AD10999A09 /* LoginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
+		0B0CD54125E60F0A2C579F80 /* ProSecurityArmDisarmScreens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProSecurityArmDisarmScreens.swift; sourceTree = "<group>"; };
+		0CC7945F8609C86E0A7D5CCE /* CameraSettingsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraSettingsScreen.swift; sourceTree = "<group>"; };
+		0CFAF80E3E0A700E23333984 /* TurnOnCameraScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TurnOnCameraScreen.swift; sourceTree = "<group>"; };
+		0D61CC352EC7F4B979896DA4 /* DeviceSettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceSettingsViewModel.swift; sourceTree = "<group>"; };
+		156FC47F17A4C9B93153F173 /* CameraSearchScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraSearchScreen.swift; sourceTree = "<group>"; };
+		1813C63B0779664A88273AD9 /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		185CE0DE9426E819A6D3A168 /* CameraSearchFailScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraSearchFailScreen.swift; sourceTree = "<group>"; };
+		1C70BCDCC7556D0D2D775899 /* ResultWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultWrapper.swift; sourceTree = "<group>"; };
+		1EDD08DA31A11ACAEFE6DF9A /* CameraSubSettingsScreens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraSubSettingsScreens.swift; sourceTree = "<group>"; };
+		201957E4139206DDC0FD8D63 /* Pods_Sandbox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sandbox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		22FAEC6A17A4273372684DAB /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
+		23BD4816C5B434AB9A849A6C /* BleWiFiScanFailScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BleWiFiScanFailScreen.swift; sourceTree = "<group>"; };
+		24A9D4DB4A46F25EC56CD3A4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		255555B56B68B407D6C33FDA /* AppEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppEnvironment.swift; sourceTree = "<group>"; };
+		29BD2FDBE46996D82E4791AB /* ProSecuritySettingsScreens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProSecuritySettingsScreens.swift; sourceTree = "<group>"; };
+		2B86837A849CC72E82142476 /* CameraWiFiListScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraWiFiListScreen.swift; sourceTree = "<group>"; };
+		2FDEA37592EA0286EFC61126 /* ProSecurityAlarmScreens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProSecurityAlarmScreens.swift; sourceTree = "<group>"; };
+		3058ED9EDB8E7F969F6FE211 /* SpaceDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceDataStore.swift; sourceTree = "<group>"; };
+		319D500FC08F8572D4A2BB5E /* EventsDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsDataStore.swift; sourceTree = "<group>"; };
+		31A6C51D17E959309EDB3A1A /* QRCodeScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeScannerView.swift; sourceTree = "<group>"; };
+		3AA39D869515B8D8494C2913 /* TimezonePickerSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimezonePickerSheet.swift; sourceTree = "<group>"; };
+		3B5DB309C10FE7F137C04A9C /* CameraResetScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraResetScreen.swift; sourceTree = "<group>"; };
+		3DA3BC884AAF9200D63E04F6 /* ProSecurityModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProSecurityModels.swift; sourceTree = "<group>"; };
+		4278BE0A928AD4599DB75F7D /* EventsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsScreen.swift; sourceTree = "<group>"; };
+		46BDF971E18151BD595B0A5A /* Atoms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Atoms.swift; sourceTree = "<group>"; };
+		48599A3017103B85B1AC3D6D /* Models+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Models+Ext.swift"; sourceTree = "<group>"; };
+		498DE797AE4141E0B02E05B4 /* PairCameraErrorScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PairCameraErrorScreen.swift; sourceTree = "<group>"; };
+		4AF046A0C60D394F08012D64 /* ProSecurityStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProSecurityStore.swift; sourceTree = "<group>"; };
+		4C4EC08E7A48DFAAC8AC4D34 /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
+		4D50D5DDE4311AA74624D368 /* Pods-Sandbox.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sandbox.debug.xcconfig"; path = "Target Support Files/Pods-Sandbox/Pods-Sandbox.debug.xcconfig"; sourceTree = "<group>"; };
+		4EE1718B791D29736ACA318D /* ProSecurityTestScreens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProSecurityTestScreens.swift; sourceTree = "<group>"; };
+		4F2E61CF2667122A40E60E15 /* BleCameraWiFiSearchingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BleCameraWiFiSearchingScreen.swift; sourceTree = "<group>"; };
+		5A819B1AC4B2AD9F341484AC /* SharedDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedDataStore.swift; sourceTree = "<group>"; };
+		60877AA2248DC59F51EC085A /* AppWindowManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppWindowManager.swift; sourceTree = "<group>"; };
+		661337E29FD0A94237ABF918 /* EmailVerifyScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailVerifyScreen.swift; sourceTree = "<group>"; };
+		66840B4D55E80C27917E883E /* SandboxApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SandboxApp.swift; sourceTree = "<group>"; };
+		69439B877C4E812500481D1C /* EmailVerifyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailVerifyViewModel.swift; sourceTree = "<group>"; };
+		6FA07CED8234ADBA45874FD1 /* Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
+		70034233E02478331AE08563 /* ProSecurityCameraScreens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProSecurityCameraScreens.swift; sourceTree = "<group>"; };
+		7161BABF4FF16957A5DBE223 /* ProSecurityScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProSecurityScreen.swift; sourceTree = "<group>"; };
+		769739E92B5923584055BE66 /* Sandbox.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Sandbox.entitlements; sourceTree = "<group>"; };
+		78FAA608EDF77E61DDDA8A29 /* VMSScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VMSScreen.swift; sourceTree = "<group>"; };
+		7E049D2AF7B9CF12BAF22DA9 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		82CF5F5230734E78CD650463 /* ChangePasswordScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePasswordScreen.swift; sourceTree = "<group>"; };
+		8311CE2DBA910E6CBC250CC4 /* SpaceViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceViewModel.swift; sourceTree = "<group>"; };
+		83EB19462BEE131A1E959CCF /* Validation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validation.swift; sourceTree = "<group>"; };
+		84AED5B601FF22AA814CD0A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		86842BE59B59D40ECD44A78C /* SignupViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewModel.swift; sourceTree = "<group>"; };
+		88732C24539AA8B58BF3BB1A /* SandboxRelease.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SandboxRelease.entitlements; sourceTree = "<group>"; };
+		8A40947F922B39ACC24C3073 /* SelectWiFiScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectWiFiScreen.swift; sourceTree = "<group>"; };
+		8F5AD60FBD8F551F6D333130 /* AppStorageKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStorageKey.swift; sourceTree = "<group>"; };
+		90F9006F7F0CD609E81F6631 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		913B8E36408AEADE26669858 /* SettingsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsScreen.swift; sourceTree = "<group>"; };
+		94FB219FDA32E09FB2645E1E /* Pods-Sandbox.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sandbox.release.xcconfig"; path = "Target Support Files/Pods-Sandbox/Pods-Sandbox.release.xcconfig"; sourceTree = "<group>"; };
+		97843750DBEB19B5D807E32D /* CameraPermissionScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPermissionScreen.swift; sourceTree = "<group>"; };
+		988A6970CE5D758ECD4A31AE /* MyAccountScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAccountScreen.swift; sourceTree = "<group>"; };
+		9D78B86F590B612EB90E0D4B /* SpaceScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceScreen.swift; sourceTree = "<group>"; };
+		A0A7DCCB96E1E67A6830EA83 /* ProSecurityContactScreens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProSecurityContactScreens.swift; sourceTree = "<group>"; };
+		A2FEE8945CB0502B4AC9847C /* ProSecurityScheduleScreens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProSecurityScheduleScreens.swift; sourceTree = "<group>"; };
+		A3DD66C3DEE57239F252C3E2 /* CodableStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableStorage.swift; sourceTree = "<group>"; };
+		AA4ACA445B3FBAF47CDE31AC /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		AC7871F435A0784FA386E14F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B49594E373A3EAB3FADFFD3B /* PairingSessionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PairingSessionViewModel.swift; sourceTree = "<group>"; };
+		BAF7BEA2BAE1C7B646239B58 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BCCD567AD83A330266D39C13 /* CameraAuthEmailScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraAuthEmailScreen.swift; sourceTree = "<group>"; };
+		BD2E666C56381DF8A1D36E36 /* AppTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTabBarView.swift; sourceTree = "<group>"; };
+		BE33009B555097AFBAA5F6F0 /* CameraLiveViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraLiveViewModel.swift; sourceTree = "<group>"; };
+		BEB439255A8F8D7D2720E825 /* AppConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfig.swift; sourceTree = "<group>"; };
+		C6918A1B36ED5E4F34D2C803 /* OnboardingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingScreen.swift; sourceTree = "<group>"; };
+		C7D59B4E49D08D8D599267ED /* ScanWiFiQRCodeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanWiFiQRCodeScreen.swift; sourceTree = "<group>"; };
+		C862B8DA2C3C6EC4CB7AF773 /* AppColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColors.swift; sourceTree = "<group>"; };
+		C8EF030A6DF07922F60D73A5 /* Pilot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pilot.swift; sourceTree = "<group>"; };
+		CB28C260D59BAB962BF2B45F /* SignUpScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpScreen.swift; sourceTree = "<group>"; };
+		CC39DFBFC569E1C61579AABC /* BLECameraListScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLECameraListScreen.swift; sourceTree = "<group>"; };
+		CE2AED96B1537EBAA5FC88D3 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		D1CBD18F8DDE2248423B7F15 /* AppFonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFonts.swift; sourceTree = "<group>"; };
+		D645F721D35A1EC1B2E99DF8 /* TroubleshootCameraScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TroubleshootCameraScreen.swift; sourceTree = "<group>"; };
+		D7E27D59FBB8A3E9A4715EB8 /* ScanCameraCodeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanCameraCodeScreen.swift; sourceTree = "<group>"; };
+		D8F98CB5EC3C425B4B75A670 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = Podfile; sourceTree = "<group>"; };
+		D96CECA9A4C4C2898242D846 /* LiveViewScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveViewScreen.swift; sourceTree = "<group>"; };
+		DEA4C82517FA7EEB74C6B8A3 /* ForgotPasswordScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordScreen.swift; sourceTree = "<group>"; };
+		DFC43503D2644555FC202BA2 /* EventPlayerScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventPlayerScreen.swift; sourceTree = "<group>"; };
+		E3EA0BF3167A2D96105107FB /* B2TokenStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = B2TokenStore.swift; sourceTree = "<group>"; };
+		E5DF4AC1688BC4F6C360CE32 /* FourGScreens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourGScreens.swift; sourceTree = "<group>"; };
+		E847C67D693FCD26755AB70F /* EventsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsViewModel.swift; sourceTree = "<group>"; };
+		E8FDD9A7C7944326B431B5F8 /* ProSecuritySetupScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProSecuritySetupScreen.swift; sourceTree = "<group>"; };
+		F234BCE036BF1540581E00C3 /* PairingScaffold.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PairingScaffold.swift; sourceTree = "<group>"; };
+		F5049881878E69404BCA2CFA /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		FB27709C19A866711FE1BFE6 /* RetrievePairingStatusScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetrievePairingStatusScreen.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF5BDB0BEAFE176F9629192A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99C9CA0DA58F1FB55D10680B /* Pods_Sandbox.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		166A83D1C99DAD6A40647C78 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				90F9006F7F0CD609E81F6631 /* AppDelegate.swift */,
+				60877AA2248DC59F51EC085A /* AppWindowManager.swift */,
+				1813C63B0779664A88273AD9 /* BaseView.swift */,
+				A3DD66C3DEE57239F252C3E2 /* CodableStorage.swift */,
+				05A947C3C4A3F968CB3A1782 /* Destination.swift */,
+				22FAEC6A17A4273372684DAB /* Logger.swift */,
+				48599A3017103B85B1AC3D6D /* Models+Ext.swift */,
+				C8EF030A6DF07922F60D73A5 /* Pilot.swift */,
+				1C70BCDCC7556D0D2D775899 /* ResultWrapper.swift */,
+				83EB19462BEE131A1E959CCF /* Validation.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		1DFADA839980E4CA7789F493 /* LiveView */ = {
+			isa = PBXGroup;
+			children = (
+				BE33009B555097AFBAA5F6F0 /* CameraLiveViewModel.swift */,
+				D96CECA9A4C4C2898242D846 /* LiveViewScreen.swift */,
+			);
+			path = LiveView;
+			sourceTree = "<group>";
+		};
+		41E96A5E3405CB7E36AE42AF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				201957E4139206DDC0FD8D63 /* Pods_Sandbox.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4566941A766E89FE8B6DD0A6 /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				C862B8DA2C3C6EC4CB7AF773 /* AppColors.swift */,
+				D1CBD18F8DDE2248423B7F15 /* AppFonts.swift */,
+				46BDF971E18151BD595B0A5A /* Atoms.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		5151B46607EBC8890D8DFCC2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03A8ADE6680CD823852147B8 /* Sandbox.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5C39D286BD711775E2E6C285 /* Sandbox */ = {
+			isa = PBXGroup;
+			children = (
+				88804A41DDD11226A498B6A0 /* Config */,
+				166A83D1C99DAD6A40647C78 /* Core */,
+				A880B41190F93CD285A16F28 /* Resources */,
+				770F4C316212AA68151B9CBB /* Screens */,
+				EE664DBF49375D41B3D91482 /* Stores */,
+				4566941A766E89FE8B6DD0A6 /* Theme */,
+				84AED5B601FF22AA814CD0A5 /* Assets.xcassets */,
+				BAF7BEA2BAE1C7B646239B58 /* ContentView.swift */,
+				AC7871F435A0784FA386E14F /* Info.plist */,
+				769739E92B5923584055BE66 /* Sandbox.entitlements */,
+				66840B4D55E80C27917E883E /* SandboxApp.swift */,
+				88732C24539AA8B58BF3BB1A /* SandboxRelease.entitlements */,
+			);
+			path = Sandbox;
+			sourceTree = "<group>";
+		};
+		76645184435472A1210790D6 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				661337E29FD0A94237ABF918 /* EmailVerifyScreen.swift */,
+				69439B877C4E812500481D1C /* EmailVerifyViewModel.swift */,
+				DEA4C82517FA7EEB74C6B8A3 /* ForgotPasswordScreen.swift */,
+				0934C2F9A65EC7AD10999A09 /* LoginScreen.swift */,
+				F5049881878E69404BCA2CFA /* LoginViewModel.swift */,
+				C6918A1B36ED5E4F34D2C803 /* OnboardingScreen.swift */,
+				CB28C260D59BAB962BF2B45F /* SignUpScreen.swift */,
+				86842BE59B59D40ECD44A78C /* SignupViewModel.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		770F4C316212AA68151B9CBB /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				BFF3E1C01F146F9C41F4FCA1 /* CameraSettings */,
+				ABD61969930B65F502AD2AD1 /* Events */,
+				88DD2EDAB5686C5091FAC872 /* Home */,
+				1DFADA839980E4CA7789F493 /* LiveView */,
+				76645184435472A1210790D6 /* Onboarding */,
+				AB9C990930B7CD31EA70F18E /* Pairing */,
+				85D07DC7A9A186C298EFDE50 /* ProSecurity */,
+				9D77B0A72B58C26174613E62 /* Settings */,
+				78D202D601FE5AC28E79F96F /* Space */,
+				BD2E666C56381DF8A1D36E36 /* AppTabBarView.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		78D202D601FE5AC28E79F96F /* Space */ = {
+			isa = PBXGroup;
+			children = (
+				9D78B86F590B612EB90E0D4B /* SpaceScreen.swift */,
+				8311CE2DBA910E6CBC250CC4 /* SpaceViewModel.swift */,
+			);
+			path = Space;
+			sourceTree = "<group>";
+		};
+		832EB35F3534FA78F3FBDA67 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4D50D5DDE4311AA74624D368 /* Pods-Sandbox.debug.xcconfig */,
+				94FB219FDA32E09FB2645E1E /* Pods-Sandbox.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		85D07DC7A9A186C298EFDE50 /* ProSecurity */ = {
+			isa = PBXGroup;
+			children = (
+				2FDEA37592EA0286EFC61126 /* ProSecurityAlarmScreens.swift */,
+				0B0CD54125E60F0A2C579F80 /* ProSecurityArmDisarmScreens.swift */,
+				70034233E02478331AE08563 /* ProSecurityCameraScreens.swift */,
+				A0A7DCCB96E1E67A6830EA83 /* ProSecurityContactScreens.swift */,
+				3DA3BC884AAF9200D63E04F6 /* ProSecurityModels.swift */,
+				A2FEE8945CB0502B4AC9847C /* ProSecurityScheduleScreens.swift */,
+				7161BABF4FF16957A5DBE223 /* ProSecurityScreen.swift */,
+				29BD2FDBE46996D82E4791AB /* ProSecuritySettingsScreens.swift */,
+				E8FDD9A7C7944326B431B5F8 /* ProSecuritySetupScreen.swift */,
+				4AF046A0C60D394F08012D64 /* ProSecurityStore.swift */,
+				4EE1718B791D29736ACA318D /* ProSecurityTestScreens.swift */,
+				3AA39D869515B8D8494C2913 /* TimezonePickerSheet.swift */,
+			);
+			path = ProSecurity;
+			sourceTree = "<group>";
+		};
+		88804A41DDD11226A498B6A0 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				BEB439255A8F8D7D2720E825 /* AppConfig.swift */,
+				255555B56B68B407D6C33FDA /* AppEnvironment.swift */,
+				8F5AD60FBD8F551F6D333130 /* AppStorageKey.swift */,
+				6FA07CED8234ADBA45874FD1 /* Debug.xcconfig */,
+				4C4EC08E7A48DFAAC8AC4D34 /* Release.xcconfig */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		88DD2EDAB5686C5091FAC872 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				7E049D2AF7B9CF12BAF22DA9 /* HomeScreen.swift */,
+				CE2AED96B1537EBAA5FC88D3 /* HomeViewModel.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		9D77B0A72B58C26174613E62 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				82CF5F5230734E78CD650463 /* ChangePasswordScreen.swift */,
+				988A6970CE5D758ECD4A31AE /* MyAccountScreen.swift */,
+				913B8E36408AEADE26669858 /* SettingsScreen.swift */,
+				78FAA608EDF77E61DDDA8A29 /* VMSScreen.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		A880B41190F93CD285A16F28 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				24A9D4DB4A46F25EC56CD3A4 /* GoogleService-Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		AB9C990930B7CD31EA70F18E /* Pairing */ = {
+			isa = PBXGroup;
+			children = (
+				CC39DFBFC569E1C61579AABC /* BLECameraListScreen.swift */,
+				4F2E61CF2667122A40E60E15 /* BleCameraWiFiSearchingScreen.swift */,
+				23BD4816C5B434AB9A849A6C /* BleWiFiScanFailScreen.swift */,
+				BCCD567AD83A330266D39C13 /* CameraAuthEmailScreen.swift */,
+				97843750DBEB19B5D807E32D /* CameraPermissionScreen.swift */,
+				3B5DB309C10FE7F137C04A9C /* CameraResetScreen.swift */,
+				185CE0DE9426E819A6D3A168 /* CameraSearchFailScreen.swift */,
+				156FC47F17A4C9B93153F173 /* CameraSearchScreen.swift */,
+				2B86837A849CC72E82142476 /* CameraWiFiListScreen.swift */,
+				E5DF4AC1688BC4F6C360CE32 /* FourGScreens.swift */,
+				498DE797AE4141E0B02E05B4 /* PairCameraErrorScreen.swift */,
+				F234BCE036BF1540581E00C3 /* PairingScaffold.swift */,
+				B49594E373A3EAB3FADFFD3B /* PairingSessionViewModel.swift */,
+				31A6C51D17E959309EDB3A1A /* QRCodeScannerView.swift */,
+				FB27709C19A866711FE1BFE6 /* RetrievePairingStatusScreen.swift */,
+				D7E27D59FBB8A3E9A4715EB8 /* ScanCameraCodeScreen.swift */,
+				C7D59B4E49D08D8D599267ED /* ScanWiFiQRCodeScreen.swift */,
+				8A40947F922B39ACC24C3073 /* SelectWiFiScreen.swift */,
+				D645F721D35A1EC1B2E99DF8 /* TroubleshootCameraScreen.swift */,
+				0CFAF80E3E0A700E23333984 /* TurnOnCameraScreen.swift */,
+			);
+			path = Pairing;
+			sourceTree = "<group>";
+		};
+		ABD61969930B65F502AD2AD1 /* Events */ = {
+			isa = PBXGroup;
+			children = (
+				DFC43503D2644555FC202BA2 /* EventPlayerScreen.swift */,
+				07CF823157A4AAA63CD1B880 /* EventPlayerViewModel.swift */,
+				4278BE0A928AD4599DB75F7D /* EventsScreen.swift */,
+				E847C67D693FCD26755AB70F /* EventsViewModel.swift */,
+			);
+			path = Events;
+			sourceTree = "<group>";
+		};
+		BFF3E1C01F146F9C41F4FCA1 /* CameraSettings */ = {
+			isa = PBXGroup;
+			children = (
+				0CC7945F8609C86E0A7D5CCE /* CameraSettingsScreen.swift */,
+				1EDD08DA31A11ACAEFE6DF9A /* CameraSubSettingsScreens.swift */,
+				0D61CC352EC7F4B979896DA4 /* DeviceSettingsViewModel.swift */,
+			);
+			path = CameraSettings;
+			sourceTree = "<group>";
+		};
+		DF891E785808226D241F246E = {
+			isa = PBXGroup;
+			children = (
+				D8F98CB5EC3C425B4B75A670 /* Podfile */,
+				AA4ACA445B3FBAF47CDE31AC /* README.md */,
+				5C39D286BD711775E2E6C285 /* Sandbox */,
+				5151B46607EBC8890D8DFCC2 /* Products */,
+				832EB35F3534FA78F3FBDA67 /* Pods */,
+				41E96A5E3405CB7E36AE42AF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EE664DBF49375D41B3D91482 /* Stores */ = {
+			isa = PBXGroup;
+			children = (
+				E3EA0BF3167A2D96105107FB /* B2TokenStore.swift */,
+				319D500FC08F8572D4A2BB5E /* EventsDataStore.swift */,
+				5A819B1AC4B2AD9F341484AC /* SharedDataStore.swift */,
+				3058ED9EDB8E7F969F6FE211 /* SpaceDataStore.swift */,
+			);
+			path = Stores;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9E8B2DDE1BC125C41A4E5026 /* Sandbox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7ADE71700E9404B10E13B577 /* Build configuration list for PBXNativeTarget "Sandbox" */;
+			buildPhases = (
+				AA0FCD29C10C26959BA02026 /* [CP] Check Pods Manifest.lock */,
+				1CDF2F71A52B082132B04DFF /* Sources */,
+				CF5BDB0BEAFE176F9629192A /* Frameworks */,
+				C02F1309AF4906C92F1EAD44 /* Resources */,
+				D93589E9AB5515B4D93B04E1 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sandbox;
+			productName = Sandbox;
+			productReference = 03A8ADE6680CD823852147B8 /* Sandbox.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B25CF16007ABAFF9D21D5A6C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					9E8B2DDE1BC125C41A4E5026 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = 12D04D787E90C9B967248BFD /* Build configuration list for PBXProject "Sandbox" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DF891E785808226D241F246E;
+			productRefGroup = 5151B46607EBC8890D8DFCC2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9E8B2DDE1BC125C41A4E5026 /* Sandbox */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C02F1309AF4906C92F1EAD44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				474897237F6319058502DAD2 /* GoogleService-Info.plist in Resources */,
+				BCC0643B10BC9FB83B0682C3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AA0FCD29C10C26959BA02026 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Sandbox-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D93589E9AB5515B4D93B04E1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Sandbox/Pods-Sandbox-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Sandbox/Pods-Sandbox-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Sandbox/Pods-Sandbox-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1CDF2F71A52B082132B04DFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1276CF29681D93311CAEBD83 /* AppConfig.swift in Sources */,
+				132B24B7BDD8960A3F839A31 /* AppEnvironment.swift in Sources */,
+				47E9ED9CFA107CF1838224BB /* AppStorageKey.swift in Sources */,
+				065ECCFDBB0CACA520040F3B /* AppDelegate.swift in Sources */,
+				129B041567BA33B47946C219 /* AppWindowManager.swift in Sources */,
+				275928F2E62B4EEF6463E325 /* BaseView.swift in Sources */,
+				97292B92D284EFD47027905C /* CodableStorage.swift in Sources */,
+				116B87219B97B4C95D611219 /* Destination.swift in Sources */,
+				A1599BAA8D0A477D0B082A75 /* Logger.swift in Sources */,
+				CE08CE0051E9F293B6423966 /* Models+Ext.swift in Sources */,
+				73E2C6C7418E893314408FB0 /* Pilot.swift in Sources */,
+				2B3622108BE8039655A37DC6 /* ResultWrapper.swift in Sources */,
+				D187102FA4EC27EC6029FF10 /* Validation.swift in Sources */,
+				5536EF091296B11BFEF80978 /* CameraSettingsScreen.swift in Sources */,
+				02FDACCA791907AC6082E909 /* CameraSubSettingsScreens.swift in Sources */,
+				68DD292D60731709540DCAA6 /* DeviceSettingsViewModel.swift in Sources */,
+				9990D86F236EF14270ADADF1 /* EventPlayerScreen.swift in Sources */,
+				A0839E32D60DD96D1E135256 /* EventPlayerViewModel.swift in Sources */,
+				54E1ACBCD43FB73DD3C78A0D /* EventsScreen.swift in Sources */,
+				3BCDA907049B38CD89A27A73 /* EventsViewModel.swift in Sources */,
+				4CC51B53B2A10A065A373E6D /* HomeScreen.swift in Sources */,
+				1B3607888590BF53B71CCEFA /* HomeViewModel.swift in Sources */,
+				23969582AF780F286CECE5CD /* CameraLiveViewModel.swift in Sources */,
+				0B79F4C2076F22DA0F6EA903 /* LiveViewScreen.swift in Sources */,
+				BDDC3938BD0ED441748C2A35 /* EmailVerifyScreen.swift in Sources */,
+				70EDE10E9A5894C523B47D3B /* EmailVerifyViewModel.swift in Sources */,
+				93FFA5CD356C657F716F1244 /* ForgotPasswordScreen.swift in Sources */,
+				F4F0E8B1A4C68424DACEBA6E /* LoginScreen.swift in Sources */,
+				05DE6EE3752042B25539F886 /* LoginViewModel.swift in Sources */,
+				A839D94F600365756C2211AB /* OnboardingScreen.swift in Sources */,
+				EFE4A1ACD867F853164EE209 /* SignUpScreen.swift in Sources */,
+				A650BF6307D3467CB6D68E09 /* SignupViewModel.swift in Sources */,
+				908BDCC3056230F49E590ED2 /* BLECameraListScreen.swift in Sources */,
+				DC0346B2CBEBFCB2683A3BFB /* BleCameraWiFiSearchingScreen.swift in Sources */,
+				7DB0DAEB852A48C51CD3DAB9 /* BleWiFiScanFailScreen.swift in Sources */,
+				E631D75C12360D65E0896480 /* CameraAuthEmailScreen.swift in Sources */,
+				A84993E96DC45CD41EF61A84 /* CameraPermissionScreen.swift in Sources */,
+				895D7E8940E0B320942FD861 /* CameraResetScreen.swift in Sources */,
+				69BC9392D4F0763993CE1A0B /* CameraSearchFailScreen.swift in Sources */,
+				B097B599E592553332392578 /* CameraSearchScreen.swift in Sources */,
+				5E03CD4D0DECF52B4886505F /* CameraWiFiListScreen.swift in Sources */,
+				3CF131609AA9B933BC2A49B4 /* FourGScreens.swift in Sources */,
+				C90DE112C92562553C960731 /* PairCameraErrorScreen.swift in Sources */,
+				71C0F4E8C7A2701F22C2F426 /* PairingScaffold.swift in Sources */,
+				E3E4C66C50A7F93369B20485 /* PairingSessionViewModel.swift in Sources */,
+				8E1A0DAD4277654D36E667EB /* QRCodeScannerView.swift in Sources */,
+				FEB608AFFA875FB3F8A0DA15 /* RetrievePairingStatusScreen.swift in Sources */,
+				021C6F72F558AD18F9E4EA90 /* ScanCameraCodeScreen.swift in Sources */,
+				41AF5EBF377C1F65E11C9BBC /* ScanWiFiQRCodeScreen.swift in Sources */,
+				67144917F9FFE0949146B7B5 /* SelectWiFiScreen.swift in Sources */,
+				7EF34A3EE5D3837762FE8C75 /* TroubleshootCameraScreen.swift in Sources */,
+				71FDED93CC03C49AE197AE40 /* TurnOnCameraScreen.swift in Sources */,
+				8A9B3945BBEF220CDC9874F4 /* ProSecurityAlarmScreens.swift in Sources */,
+				49B2BE9EF80B7B9C3F5415AB /* ProSecurityArmDisarmScreens.swift in Sources */,
+				08E4CE977DB3C4D62F166A15 /* ProSecurityCameraScreens.swift in Sources */,
+				E2BE7D37F3720D17681BCDAA /* ProSecurityContactScreens.swift in Sources */,
+				4D66995DC6344F8606BCB3D6 /* ProSecurityModels.swift in Sources */,
+				2F8DFB32E0C2259B83942C6C /* ProSecurityScheduleScreens.swift in Sources */,
+				3213222CC32BE3EAE0536A78 /* ProSecurityScreen.swift in Sources */,
+				D0BCA2A319C4FF336604B8E0 /* ProSecuritySettingsScreens.swift in Sources */,
+				611A2B9B0C8F9F982ACA1EBC /* ProSecuritySetupScreen.swift in Sources */,
+				FF08349E2D57A3BD7B0F18FC /* ProSecurityStore.swift in Sources */,
+				E93A88E5A85086A705F5BF0A /* ProSecurityTestScreens.swift in Sources */,
+				2C7560DA20CB7600D654420F /* TimezonePickerSheet.swift in Sources */,
+				2573DD1089C4B858EAD492C2 /* ChangePasswordScreen.swift in Sources */,
+				C0B23D99D562100E8D3A3F24 /* MyAccountScreen.swift in Sources */,
+				E819C6DCF04BC31ACC0B5276 /* SettingsScreen.swift in Sources */,
+				548073C1C26FCBC06B495917 /* VMSScreen.swift in Sources */,
+				1EBF6995DA70545D703EE536 /* SpaceScreen.swift in Sources */,
+				4975B4EED73E172F02DA52B6 /* SpaceViewModel.swift in Sources */,
+				09FE6CCC0A986C1AFA7B5F95 /* AppTabBarView.swift in Sources */,
+				94D3B1D1BCB799F3E940DC80 /* B2TokenStore.swift in Sources */,
+				2BD8E62D602A5D4B4D8DF86F /* EventsDataStore.swift in Sources */,
+				7460B2E9F0BC5C31FB057C4D /* SharedDataStore.swift in Sources */,
+				A2219DF64C357DCB97C0E975 /* SpaceDataStore.swift in Sources */,
+				BE41A4D9FAF7F006374380BA /* AppColors.swift in Sources */,
+				26AB67869F873919F53517BE /* AppFonts.swift in Sources */,
+				42BD8C687BDE40BB278C1E05 /* Atoms.swift in Sources */,
+				B37B2698A2B417D02958E469 /* ContentView.swift in Sources */,
+				E7513FC36A0E04E2E4267E32 /* SandboxApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1E0DDAF384B911BF23BC77ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FA07CED8234ADBA45874FD1 /* Debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 4C5S4RTMBP;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Sandbox/Info.plist;
+				INFOPLIST_KEY_UILaunchScreen_Generation = NO;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "match Development ai.instaview.guardian.sandbox";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		877A6BA951A2EA0025A2ABE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		959134B361DD7E21ADEA3164 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Release;
+		};
+		A1EFC270D4D6011185E1BD4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C4EC08E7A48DFAAC8AC4D34 /* Release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 4C5S4RTMBP;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Sandbox/Info.plist;
+				INFOPLIST_KEY_UILaunchScreen_Generation = NO;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "match Development ai.instaview.guardian.sandbox";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		12D04D787E90C9B967248BFD /* Build configuration list for PBXProject "Sandbox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				877A6BA951A2EA0025A2ABE8 /* Debug */,
+				959134B361DD7E21ADEA3164 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7ADE71700E9404B10E13B577 /* Build configuration list for PBXNativeTarget "Sandbox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E0DDAF384B911BF23BC77ED /* Debug */,
+				A1EFC270D4D6011185E1BD4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B25CF16007ABAFF9D21D5A6C /* Project object */;
+}
