@@ -65,7 +65,7 @@ final class CameraLiveViewModel: ObservableObject {
             spaceId: device.spaceId,
             deviceId: device.id,
             wakeup: device.isMcuSupported,
-            supportsCalling: false,
+            supportsCalling: device.supportsVideoCall,
             supportRSSI: false,
             hardwareConfig: sharedData.deviceCluster(device.id)?.hardwareConfig
         )

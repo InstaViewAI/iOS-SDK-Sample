@@ -311,6 +311,7 @@ struct CameraCard: View {
             .cornerRadius(14)
             .overlay(RoundedRectangle(cornerRadius: 14).stroke(AppColors.border, lineWidth: 1))
         }
+        .buttonStyle(.plain)
     }
 
     private func batteryIcon(_ percentage: CGFloat) -> String {
